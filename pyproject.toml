@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gis-shit-for-curtis"
+version = "0.1.0"
+description = ""
+authors = ["Wade Williams <wade@wadewilliams.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+pyodbc = "^5.2.0"
+
+[virtualenvs]
+in-project = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
